@@ -1,7 +1,5 @@
 package com.spring.angular.model;
 
-import java.io.Serializable;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,7 +24,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-public class Employee implements Serializable {
+public class Employee {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
